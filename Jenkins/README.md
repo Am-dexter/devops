@@ -41,8 +41,6 @@ To set up your installation, visit Jenkins on its default port, 8080, using your
 
 You should receive the Unlock Jenkins screen, which displays the location of the initial password:
 
-![Initial Jenkins Page!](/home/dexter/Downloads/unlock-jenkins.png "Jenkins Unlock")
-
 In terminal window use [cat] to display the password
 
     > sudo cat /var/lib/jenkins/secrets/initialAdminPassword
