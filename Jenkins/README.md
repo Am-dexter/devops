@@ -26,13 +26,13 @@ The gpg --dearmor command is used to convert the key into a format that apt reco
 
 ## Starting the Jenkins Server
 
-With Jenkins installed, we can start it with *systemctl*
+1. With Jenkins installed, we can start it with *systemctl*
     > sudo systemctl start jenkins
 
-With Jenkins started, you can access it via browser on [IP] and port [8080]. Should you not be able to access, open the port on the firewall using *ufw*
+2. With Jenkins started, you can access it via browser on [IP] and port [8080]. Should you not be able to access, open the port on the firewall using *ufw*
     > sudo ufw allow 8080
 
-Confirm new rules with
+3. Confirm new rules with
     > sudo ufw status
 
 ## Setting Up Jenkins
